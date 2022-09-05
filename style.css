@@ -36,6 +36,7 @@ main {
   height: 100%;
   display: flex;
   align-items: center;
+  position: relative;
 }
 section {
   margin: -6.7rem 1rem 0 2.2rem;
@@ -44,6 +45,7 @@ section {
   justify-content: space-between;
   align-items: flex-start;
   height: 50%;
+  z-index: 2;
 }
 section h1 {
   font-family: var(--sen-font);
@@ -66,6 +68,36 @@ section span {
   -moz-border-radius: 0.6rem;
   -ms-border-radius: 0.6rem;
   -o-border-radius: 0.6rem;
+}
+.user-avatar-1 {
+  display: none;
+}
+.user-avatar-2 {
+  position: absolute;
+  top: 3.2rem;
+  left: 23.8rem;
+  width: 16.7rem;
+  z-index: 1;
+}
+.user-avatar-3 {
+  position: absolute;
+  top: 5rem;
+  left: 5rem;
+  width: 11.6rem;
+  z-index: 1;
+}
+.user-avatar-4 {
+  display: none;
+}
+.user-avatar-5 {
+  display: none;
+}
+.user-avatar-6 {
+  position: absolute;
+  top: 49.3rem;
+  left: 21.4rem;
+  width: 18.5rem;
+  z-index: 1;
 }
 
 footer {
