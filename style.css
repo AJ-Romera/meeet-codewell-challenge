@@ -2,6 +2,7 @@
   --inter-font: "Inter", sans-serif;
   --sen-font: "Sen", sans-serif;
   --green-color: #32f5c8;
+  --gray-color: #b0c3cc;
 }
 
 * {
@@ -37,32 +38,45 @@ main {
   align-items: center;
 }
 section {
-  margin: -2.5rem 1rem 0 2.2rem;
+  margin: -6.7rem 1rem 0 2.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: 53%;
+  height: 50%;
 }
 section h1 {
   font-family: var(--sen-font);
-  font-size: 5.635rem;
+  font-size: 5.4rem;
   color: var(--green-color);
 }
 section p {
   font-family: var(--inter-font);
-  font-size: 2.635rem;
-  color: #b0c3cc;
+  font-size: 2.4rem;
+  color: var(--gray-color);
 }
 section span {
   font-family: var(--inter-font);
-  font-size: 2.635rem;
+  font-size: 2.3rem;
   font-weight: 800;
   background-color: var(--green-color);
-  padding: 2.63rem 2.8rem;
+  padding: 2.3rem 2.4rem;
   border-radius: 0.6rem;
   -webkit-border-radius: 0.6rem;
   -moz-border-radius: 0.6rem;
   -ms-border-radius: 0.6rem;
   -o-border-radius: 0.6rem;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+}
+footer span {
+  margin-left: 1.6rem;
+  font-family: var(--inter-font);
+  font-size: 2.3rem;
+  color: var(--gray-color);
 }
