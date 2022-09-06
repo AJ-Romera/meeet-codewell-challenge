@@ -94,7 +94,7 @@ section span {
 }
 .user-avatar-6 {
   position: absolute;
-  top: 49.3rem;
+  top: 42rem;
   left: 21.4rem;
   width: 18.5rem;
   z-index: 1;
@@ -104,7 +104,7 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 2rem;
+  margin: 2rem;
 }
 footer span {
   margin-left: 1.6rem;
@@ -112,3 +112,85 @@ footer span {
   font-size: 2.3rem;
   color: var(--gray-color);
 }
+
+/* @media (min-width:320px) */
+
+@media (min-width: 480px) {
+  header {
+    margin: 3.8rem 1rem 1rem 3.8rem;
+  }
+  header img {
+    width: 16%;
+  }
+
+  section {
+    margin: 1.8rem 1rem 0 3.8rem;
+    height: 58%;
+  }
+  section h1 {
+    font-size: 9rem;
+  }
+  section p {
+    font-size: 2.15rem;
+    width: 70%;
+  }
+  section span {
+    font-size: 2.1rem;
+    padding: 2.1rem 2.2rem;
+  }
+  .user-avatar-1 {
+    display: block;
+    position: absolute;
+    top: 18rem;
+    right: 11rem;
+    width: 10rem;
+  }
+  .user-avatar-2 {
+    top: -3rem;
+    left: auto;
+    right: 6rem;
+    width: 14rem;
+  }
+  .user-avatar-3 {
+    top: 1rem;
+  }
+  .user-avatar-4 {
+    display: block;
+    position: absolute;
+    top: 52rem;
+    right: 13rem;
+    width: 21.5rem;
+  }
+  .user-avatar-5 {
+    display: block;
+    position: absolute;
+    top: 10.5rem;
+    right: 25.5rem;
+    width: 10.5rem;
+  }
+  .user-avatar-6 {
+    top: 33rem;
+    left: auto;
+    right: 16rem;
+    width: 12rem;
+  }
+
+  footer {
+    margin: 1rem 0 5rem 3.8rem;
+  }
+  footer img {
+    width: 4.3rem;
+  }
+  footer span {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+  }
+}
+
+/* @media (min-width:600px) 
+
+@media (min-width:801px) 
+
+@media (min-width:1025px) 
+
+@media (min-width:1281px)  */
