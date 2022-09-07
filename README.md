@@ -4,4 +4,11 @@ This is my first html5 & CSS practice since my comeback days ago. I´m testing m
 
 [Codewell´s Meeet Challenge](https://www.codewell.cc/challenges/meeet-waitlist-template--60e05defa383e41090a3c273)
 
-I have to make a small landing page, this challenge is perfect to practice positioning and refreshing my skills. I should make it responsive too (I´ll try a mobile first approach) for mobile, tablet and desktop.
+## Demo
+
+[View Live Demo](https://meeet-cw-challenge.netlify.app/)
+
+## Final Thoughts
+
+I made a landing page template, a bit responsive for some desktops, tablets and mobile. Did it with an mobile-first approach.
+The positioning was challenging for me, I think I should use background positioning next time. Also on desktop there´s a "N" on the word EntrepreNeurs that has a different z-index, I didn´t make it because I have to remember JS.
