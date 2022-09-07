@@ -113,6 +113,17 @@ footer span {
   color: var(--gray-color);
 }
 
+.attribution {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--gray-color);
+  margin-bottom: 1rem;
+  padding: 0;
+}
+.attribution a {
+  color: var(--green-color);
+}
+
 @media (min-width: 480px) {
   header {
     margin: 3.8rem 1rem 1rem 3.8rem;
